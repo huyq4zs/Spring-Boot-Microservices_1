@@ -17,3 +17,8 @@ zuul:
       path: /demo/**
       serviceId: demo
       stripPrefix: true
+
+security:
+  user:
+    name: admin
+    password: test
